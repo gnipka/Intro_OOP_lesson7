@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Intro_OOP_lesson7
 {
+    /// <summary>
+    /// Класс шифрует строку, выполняя замену каждой буквы, стоящей в алфавите на i-й позиции, 
+    /// на букву того же регистра, расположенную в алфавите на i-й позиции с конца алфавита
+    /// </summary>
     class BCoder : ICoder
     {
         public string Encode(string str)
