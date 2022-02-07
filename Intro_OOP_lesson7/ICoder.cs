@@ -12,11 +12,11 @@ namespace Intro_OOP_lesson7
         /// Шифрование строки
         /// </summary>
         /// <param name="str">Строка для шифрования</param>
-        void Encode(string str);
+        string Encode(string str);
         /// <summary>
         /// Дешифрование строки
         /// </summary>
         /// <param name="str">Строка для дешифрования</param>
-        void Decode(string str);
+        string Decode(string str);
     }
 }

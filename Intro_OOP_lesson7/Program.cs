@@ -6,7 +6,11 @@ namespace Intro_OOP_lesson7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ACoder aCoder = new ACoder();
+            string str = "hello HELLO привет ПРИВЕТ";
+            string strEncode = aCoder.Encode(str);
+            string strDecode = aCoder.Decode(strEncode);
+
         }
     }
 }
