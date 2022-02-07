@@ -6,10 +6,15 @@ namespace Intro_OOP_lesson7
     {
         static void Main(string[] args)
         {
-            ACoder aCoder = new ACoder();
             string str = "hello HELLO привет ПРИВЕТ";
-            string strEncode = aCoder.Encode(str);
-            string strDecode = aCoder.Decode(strEncode);
+
+            ACoder aCoder = new ACoder();
+            string strEncodeA = aCoder.Encode(str);
+            string strDecodeA = aCoder.Decode(strEncodeA);
+
+            BCoder bCoder = new BCoder();
+            string strEncodeB = bCoder.Encode(str);
+            string strDecodeB = bCoder.Decode(strEncodeB);
 
         }
     }
